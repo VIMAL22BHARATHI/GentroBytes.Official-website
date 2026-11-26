@@ -1,0 +1,263 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Gentrobyte AI Labs</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Gentrobyte AI Labs: AI-Powered Software Solutions. Next-generation AI innovation company delivering intelligent software solutions for automation, digital transformation, and data-driven products.">
+<meta name="theme-color" content="#060A1C">
+<link rel="preload" href="assets/fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/logo.webp" as="image">
+<script>document.documentElement.classList.add("js","loading")</script>
+<link rel="stylesheet" href="styles.css">
+<script src="assets/vendor/three.min.js" defer></script>
+<script src="lattice.js" defer></script>
+<script src="service-data.js" defer></script>
+<script src="service-detail.js" defer></script>
+<script src="app.js" defer></script>
+<!--/HEAD-->
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><!--GRAD--></svg>
+
+<div class="loader" id="loader" role="status" aria-live="polite">
+  <img class="ld-logo" src="assets/logo.webp" alt="Gentrobyte AI Labs" width="640" height="617" decoding="async">
+  <span class="ld-bar" aria-hidden="true"><i></i></span>
+  <span class="sr">Loading</span>
+</div>
+<div class="curtain" id="curtain" aria-hidden="true"><i class="cv a"></i><i class="cv b"></i><span class="cv-label" id="cvLabel"></span></div>
+
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="prog" id="prog" aria-hidden="true"></div>
+<div class="cur" id="cur" aria-hidden="true"><i></i></div>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="Gentrobyte AI Labs, back to top"><img src="assets/logo.webp" alt="" width="36" height="35"><span>Gentrobyte <em>AI Labs</em></span></a>
+  <nav class="nav-links" aria-label="Primary">
+    <ul id="navList">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#responsive">Showcase</a></li>
+      <li><a href="#marketing">Marketing</a></li>
+      <li><a href="#partners">Partners</a></li>
+    </ul>
+  </nav>
+  <button type="button" class="kbtn" id="kOpen" aria-label="Quick search, shortcut Control K"><span>Search</span><kbd>Ctrl K</kbd></button>
+  <a class="btn btn-main nav-cta" href="#contact">Start a brief</a>
+  <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mnav"><span>Menu</span></button>
+</header>
+<div class="mnav" id="mnav" hidden>
+  <ul>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#services">Our Services</a></li>
+    <li><a href="#responsive">Responsive Design Showcase</a></li>
+    <li><a href="#mobile">Mobile App Showcase</a></li>
+    <li><a href="#marketing">Digital Marketing &amp; Campaigns</a></li>
+    <li><a href="#partners">Global Partnerships</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</div>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="hero" aria-labelledby="hero-h">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><i></i><b>00</b> Gentrobyte AI Labs</p>
+        <h1 id="hero-h"><span class="l1">AI-Powered</span><br><span class="grad l2">Software</span><br><span class="grad l3">Solutions.</span></h1>
+        <div class="hero-foot">
+          <p class="lede">Next-generation AI innovation company delivering intelligent software solutions for automation, digital transformation, and data-driven products.</p>
+          <div class="cta-row">
+            <button type="button" class="btn btn-main" id="heroReq">Give your requirement <!--IC_ARROW--></button>
+            <a class="btn btn-ghost" href="#services">Our Services</a>
+          </div>
+        </div>
+        <dl class="stats hero-stats"><!--STATS--></dl>
+      </div>
+      <div class="hero-art" id="heroArt" aria-hidden="true"></div>
+    </div>
+    <div class="core" id="core" aria-hidden="true"><img src="assets/logo.webp" alt="" width="640" height="617"></div>
+    <div class="hud" aria-hidden="true"><span id="hudXY">X +00.0 &nbsp; Z +00.0</span><span class="hud-s">Scroll</span></div>
+  </section>
+
+  <div class="marq" id="marq" aria-hidden="true"><!--MARQUEE--></div>
+
+  <!-- 01 ABOUT -->
+  <section class="sec" id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <p class="eyebrow" data-r><i></i><b>01</b> About Us</p>
+      <div class="sec-head" data-r>
+        <h2 class="h2" id="about-h">Next-generation<br><span class="grad">AI innovation company.</span></h2>
+        <p class="sub">Gentrobyte AI Labs - next-generation AI innovation company delivering intelligent software solutions for automation, digital transformation, and data-driven products.</p>
+      </div>
+      <div class="explorer glass" data-r>
+        <ul class="ab-list" role="tablist" aria-label="What we do" id="abList"><!--ABOUT_LIST--></ul>
+        <div class="ab-detail" role="tabpanel" id="abDetail" aria-live="polite">
+          <div class="ab-orb"><span class="ab-ic" id="abIc"></span></div>
+          <p class="ab-k" id="abK">01 / 10</p>
+          <h3 id="abN"></h3>
+          <p id="abD"></p>
+          <a class="link" href="#services">See our services <!--IC_ARROW--></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 SERVICES -->
+  <section class="sec" id="services" aria-labelledby="svc-h">
+    <div class="wrap">
+      <p class="eyebrow" data-r><i></i><b>02</b> Our Services</p>
+      <div class="sec-head" data-r>
+        <h2 class="h2" id="svc-h">Our <span class="grad">Services</span></h2>
+        <p class="sub">Add the services you need to your brief and they are included in your message.</p>
+      </div>
+      <div class="svc-tools" data-r>
+        <label class="search"><span class="sr">Search services</span><input id="svcQ" type="search" placeholder="Search services..." autocomplete="off"></label>
+        <button type="button" class="tgl" id="svcAdded" aria-pressed="false">Added only</button>
+        <span class="svc-n" id="svcN" aria-live="polite">12 of 12</span>
+      </div>
+      <div class="svc-grid" id="svcGrid"><!--SERVICES--></div>
+      <p class="svc-empty" id="svcEmpty" hidden>No service matches that. Try another word.</p>
+    </div>
+  </section>
+
+  <!-- 03 RESPONSIVE DESIGN SHOWCASE -->
+  <section class="sec" id="responsive" aria-labelledby="resp-h">
+    <div class="wrap">
+      <p class="eyebrow" data-r><i></i><b>03</b> Showcase</p>
+      <div class="sec-head" data-r>
+        <h2 class="h2" id="resp-h">Responsive Design<br><span class="grad">Showcase</span></h2>
+        <div class="seg" role="group" aria-label="Choose a view" id="devSeg">
+          <button type="button" aria-pressed="true" data-v="all">All views</button>
+          <button type="button" aria-pressed="false" data-v="desktop"><!--IC_MONITOR-->Desktop</button>
+          <button type="button" aria-pressed="false" data-v="laptop"><!--IC_LAPTOP-->Laptop</button>
+          <button type="button" aria-pressed="false" data-v="tablet"><!--IC_TABLET-->Tablet</button>
+          <button type="button" aria-pressed="false" data-v="mobile"><!--IC_PHONE-->Mobile</button>
+        </div>
+      </div>
+      <div class="stage glass" id="devStage" data-view="all" data-r>
+        <div class="dev desktop" data-d="desktop"><div class="scr"><i></i><i></i><i></i><b>E-Commerce</b><span>Desktop View</span></div><div class="base"></div></div>
+        <div class="dev laptop" data-d="laptop"><div class="scr"><i></i><i></i><b>E-Commerce</b><span>Laptop View</span></div><div class="base"></div></div>
+        <div class="dev tablet" data-d="tablet"><div class="scr"><i></i><b>E-Commerce</b><span>Tablet View</span></div></div>
+        <div class="dev phone" data-d="mobile"><div class="scr"><b>E-Commerce</b><span>Mobile View</span></div></div>
+      </div>
+      <div class="resizer glass" data-r>
+        <div class="rz-head"><span class="rz-t">Drag the handle to resize the page</span><span class="rz-b"><b id="rzLabel">Desktop View</b><em id="rzW">1200px</em></span></div>
+        <div class="rz-track" id="rzTrack">
+          <div class="rz-frame" id="rzFrame"><!--SHOP-->
+            <button type="button" class="rz-handle" id="rzHandle" role="slider" aria-label="Preview width" aria-valuemin="320" aria-valuemax="1200" aria-valuenow="1200" aria-orientation="horizontal"><i></i><i></i><i></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 MOBILE APP SHOWCASE -->
+  <section class="sec" id="mobile" aria-labelledby="mob-h">
+    <div class="wrap">
+      <p class="eyebrow" data-r><i></i><b>04</b> Mobile Apps</p>
+      <div class="sec-head" data-r>
+        <h2 class="h2" id="mob-h">Mobile App<br><span class="grad">Showcase</span></h2>
+        <div class="seg" role="group" aria-label="Choose a platform" id="appSeg">
+          <button type="button" aria-pressed="true" data-v="both">Both</button>
+          <button type="button" aria-pressed="false" data-v="android">Android</button>
+          <button type="button" aria-pressed="false" data-v="iphone">iPhone</button>
+        </div>
+      </div>
+      <div class="stage apps glass" id="appStage" data-view="both" data-r>
+        <figure class="app" data-d="android"><!--PHONE_ANDROID--><figcaption>Android</figcaption></figure>
+        <figure class="app" data-d="iphone"><!--PHONE_IPHONE--><figcaption>iPhone</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 DIGITAL MARKETING -->
+  <section class="sec" id="marketing" aria-labelledby="mkt-h">
+    <div class="wrap">
+      <p class="eyebrow" data-r><i></i><b>05</b> Digital Marketing</p>
+      <div class="sec-head" data-r>
+        <h2 class="h2" id="mkt-h">Digital Marketing<br><span class="grad">&amp; Campaigns</span></h2>
+      </div>
+      <h3 class="h3" data-r>Social Media Management</h3>
+      <ul class="acct-row" data-r><!--SOCIAL--></ul>
+      <h3 class="h3" data-r>Ad Campaigns</h3>
+      <ul class="ad-row" data-r><!--ADS--></ul>
+    </div>
+  </section>
+
+  <!-- 06 GLOBAL PARTNERSHIPS -->
+  <section class="sec" id="partners" aria-labelledby="part-h">
+    <div class="wrap">
+      <p class="eyebrow" data-r><i></i><b>06</b> Partners</p>
+      <div class="sec-head" data-r>
+        <h2 class="h2" id="part-h">Global<br><span class="grad">Partnerships</span></h2>
+        <p class="sub">Connected across 35+ Countries</p>
+      </div>
+      <div class="mapbox glass" id="mapbox" data-r><!--MAP--><button type="button" class="btn btn-ghost replay" id="replay">Replay</button></div>
+      <dl class="stats big" data-r><!--STATS--></dl>
+    </div>
+  </section>
+
+  <!-- 08 CONTACT -->
+  <section class="sec contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <p class="eyebrow" data-r><i></i><b>07</b> Contact</p>
+      <div class="sec-head" data-r>
+        <h2 class="h2" id="contact-h">Contact <span class="grad">Us</span></h2>
+        <p class="sub">Tell us about your project or requirements.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="c-side" data-r>
+          <h3 class="h3">Connect With Us</h3>
+          <ul class="links"><!--LINKS--></ul>
+          <p class="wa-num">WhatsApp <span class="sel">+91 91592 47730</span></p>
+        </div>
+        <form class="form glass" id="form" novalidate data-r>
+          <div class="f"><label for="fName">Name <i>*</i></label><input id="fName" name="name" autocomplete="name" placeholder="Enter your full name" required></div>
+          <div class="f"><label for="fEmail">Email <i>*</i></label><input id="fEmail" name="email" type="email" autocomplete="email" placeholder="Enter your email address" required></div>
+          <div class="f"><label for="fMobile">Mobile number <i>*</i></label><input id="fMobile" name="mobile" type="tel" autocomplete="tel" inputmode="tel" placeholder="Enter your mobile number" required></div>
+          <div class="f"><label for="fMsg">Message <i>*</i></label><textarea id="fMsg" name="message" rows="5" placeholder="Tell us about your project or requirements..." required></textarea></div>
+          <div class="f" id="briefBox" hidden><span class="lbl">Services in your brief</span><ul class="chips" id="briefChips"></ul></div>
+          <p class="err" id="formErr" role="alert" hidden></p>
+          <button class="btn btn-main btn-block" type="submit">Send message</button>
+          <div class="sent" id="sent" hidden>
+            <h4>Your message is ready</h4>
+            <p>This form is not connected to an inbox yet, so nothing has been sent. Send it on WhatsApp or copy it.</p>
+            <textarea id="sentText" readonly rows="6" aria-label="Your message"></textarea>
+            <div class="sent-act"><a class="btn btn-main" id="waLink" target="_blank" rel="noopener noreferrer" href="https://wa.me/919159247730">Send on WhatsApp</a><button class="btn btn-ghost" type="button" id="copyBtn">Copy message</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE DETAIL (rendered by service-detail.js for #/services/<slug>) -->
+  <div class="sd" id="svcPage" hidden></div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="brand" href="#top" aria-label="Back to top"><img src="assets/logo.webp" alt="" width="36" height="35"><span>Gentrobyte <em>AI Labs</em></span></a>
+    <ul class="foot-links">
+      <li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#responsive">Showcase</a></li>
+      <li><a href="#marketing">Marketing</a></li><li><a href="#partners">Partners</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copy">© 2026 Gentrobyte. Powered by Gentrobyte AI Labs.</p>
+  </div>
+</footer>
+
+<div class="sugg" id="sugg" hidden><p>Add to your brief</p><ul id="suggList"></ul></div>
+<form class="dock" id="dock" aria-label="Give your requirement">
+  <label class="d-attach" title="Attach files"><!--IC_PAPERCLIP--><input type="file" id="dockFile" multiple hidden><span class="sr">Attach files</span></label>
+  <input id="dockReq" type="text" placeholder="Give your requirement..." autocomplete="off" aria-label="Give your requirement">
+  <span class="d-count" id="dockCount" hidden></span>
+  <button class="d-send" type="submit" aria-label="Continue to the contact form"><!--IC_SEND--></button>
+</form>
+
+<div class="pal" id="pal" hidden role="dialog" aria-modal="true" aria-label="Quick search">
+  <div class="pal-box glass">
+    <input id="palQ" type="text" placeholder="Jump to a section or add a service..." autocomplete="off" aria-label="Quick search" role="combobox" aria-expanded="true" aria-controls="palList">
+    <ul id="palList" role="listbox"></ul>
+    <p class="pal-h"><kbd>↑</kbd><kbd>↓</kbd> move <kbd>Enter</kbd> choose <kbd>Esc</kbd> close</p>
+  </div>
+</div>
+
+<script type="application/json" id="data">/*ABOUT_DATA*/</script>

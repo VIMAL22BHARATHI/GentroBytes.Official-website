@@ -1,0 +1,62 @@
+{
+ "slug": "digital-marketing-seo",
+ "name": "Digital Marketing & SEO",
+ "visual": "marketing",
+ "headline": "Be found, be remembered, be chosen.",
+ "intro": "Search, social and paid campaigns built on measurement, so your brand reaches the right people and every rupee of spend can be traced to an outcome.",
+ "overview": {
+  "what": "Digital marketing and SEO covers search engine optimisation, social media management, paid advertising across Google, Meta and WhatsApp, content, email and analytics, planned as one connected growth programme.",
+  "why": "Customers research online before they buy. If your brand is invisible in search or inconsistent on social platforms, competitors capture that attention, and unmeasured advertising wastes budget.",
+  "problems": [
+   "A good website that nobody finds in search results",
+   "Social channels that post irregularly with no link to enquiries",
+   "Ad spend with unclear return and no conversion tracking",
+   "Campaigns that reach people but do not turn attention into leads"
+  ],
+  "approach": "We begin with audience, competitors and tracking, then build a channel mix that suits your goals. Every campaign ships with reporting, and results feed back into the next round of content and targeting."
+ },
+ "deliver": [
+  {"t": "Search engine optimisation", "d": "Technical audits, keyword strategy, on-page optimisation, content and link-earning for lasting organic growth."},
+  {"t": "Social media management", "d": "Content calendars, creative, publishing, community replies and performance reporting."},
+  {"t": "Paid campaigns", "d": "Google Ads, Instagram, Facebook and WhatsApp campaigns built around clear conversion goals."},
+  {"t": "Content and creative", "d": "Articles, landing pages, short video, graphics and email sequences aligned with your brand voice."},
+  {"t": "Conversion tracking", "d": "Analytics, tag management and dashboards that connect clicks to leads and sales."},
+  {"t": "Monthly reporting and strategy", "d": "Plain-language reviews of what worked, what did not and what to do next."}
+ ],
+ "capabilities": [
+  {"t": "Technical SEO", "d": "Site speed, crawlability, structured data, mobile usability and Core Web Vitals fixes."},
+  {"t": "Local search visibility", "d": "Google Business Profile optimisation, local citations and review management."},
+  {"t": "Audience targeting", "d": "Interest, lookalike and retargeting audiences built from your customer and website data."},
+  {"t": "Creative testing", "d": "Structured variations of messages and visuals to learn what drives action."},
+  {"t": "Funnel and landing pages", "d": "Focused pages and forms that turn campaign traffic into enquiries."},
+  {"t": "Marketing automation", "d": "Email and WhatsApp follow-up sequences triggered by user behaviour."}
+ ],
+ "stack": [
+  {"g": "Search and analytics", "items": ["Google Search Console", "Google Analytics 4", "Tag Manager", "Looker Studio"]},
+  {"g": "Advertising", "items": ["Google Ads", "Meta Ads Manager", "WhatsApp Business", "LinkedIn Ads"]},
+  {"g": "SEO tools", "items": ["Semrush", "Ahrefs", "Screaming Frog", "PageSpeed Insights"]},
+  {"g": "Content and social", "items": ["Canva", "Figma", "Meta Business Suite", "Mailchimp"]}
+ ],
+ "process": [
+  {"t": "Audit and research", "d": "We review your site, competitors, keywords, audience and current campaign performance."},
+  {"t": "Strategy and goals", "d": "Channels, budgets and measurable targets are agreed for the first quarter."},
+  {"t": "Foundation setup", "d": "Tracking, technical fixes, profiles and landing pages are put in place."},
+  {"t": "Campaign launch", "d": "Content, ads and outreach go live on a planned calendar."},
+  {"t": "Optimise", "d": "Budgets, audiences, keywords and creative are adjusted weekly using the data."},
+  {"t": "Report and scale", "d": "Monthly reviews decide where to invest more and where to stop."}
+ ],
+ "benefits": [
+  {"t": "Greater visibility", "d": "Rank for the searches your customers make and appear consistently on the platforms they use."},
+  {"t": "Measurable return", "d": "Tracking ties spend and activity to enquiries and sales."},
+  {"t": "Compounding growth", "d": "SEO and content keep working long after they are published."},
+  {"t": "Stronger brand", "d": "A consistent voice and creative build recognition and trust."},
+  {"t": "Less guesswork", "d": "Decisions come from performance data rather than opinion."}
+ ],
+ "usecases": [
+  {"t": "Local services business", "d": "Local SEO and Google Business Profile work bring in nearby enquiries."},
+  {"t": "E-commerce launch", "d": "Product SEO, Instagram and search ads drive traffic to a new store."},
+  {"t": "B2B lead generation", "d": "Content, LinkedIn and search campaigns feed a qualified enquiry pipeline."},
+  {"t": "Education and training", "d": "Seasonal admission campaigns across Meta, Google and WhatsApp."}
+ ],
+ "cta": {"h": "Turn attention into enquiries.", "p": "Share your goals and your current channels. We will audit what you have and outline the plan we would run."}
+}

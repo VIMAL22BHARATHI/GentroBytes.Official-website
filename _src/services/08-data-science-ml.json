@@ -1,0 +1,62 @@
+{
+ "slug": "data-science-ml",
+ "name": "Data Science & ML",
+ "visual": "ml",
+ "headline": "Predict what happens next, then act on it.",
+ "intro": "Machine learning models that forecast demand, flag risk and recognise patterns in your data, built, validated and deployed as part of the software you already use.",
+ "overview": {
+  "what": "Data science and machine learning turns historical and live data into predictive models: forecasting, classification, anomaly detection, recommendation and computer vision, taken from experiment to production service.",
+  "why": "Many decisions, such as how much stock to hold, which customers might leave or which transaction looks suspicious, are made on instinct. A validated model brings consistent, data-driven predictions to those decisions.",
+  "problems": [
+   "Forecasts built on averages that miss seasonality and trends",
+   "Churn, defaults or faults noticed only after the damage is done",
+   "Data scattered across systems and too inconsistent to learn from",
+   "Experimental models that never reach production or silently degrade"
+  ],
+  "approach": "We frame the business question first, assess data readiness honestly, build a simple baseline before anything complex, validate against held-out data, and deploy with monitoring so the model remains reliable."
+ },
+ "deliver": [
+  {"t": "Predictive and forecasting models", "d": "Demand, sales, price, churn and risk predictions tailored to your data."},
+  {"t": "Classification and anomaly detection", "d": "Models that sort, score and flag unusual events such as fraud or equipment faults."},
+  {"t": "Recommendation systems", "d": "Personalised product, content or next-best-action suggestions."},
+  {"t": "Computer vision and NLP", "d": "Image inspection, document understanding, text classification and sentiment analysis."},
+  {"t": "Data pipelines and feature engineering", "d": "Reliable, repeatable preparation of the data your models learn from."},
+  {"t": "Model deployment and monitoring", "d": "APIs and batch jobs with drift detection, retraining and performance tracking."}
+ ],
+ "capabilities": [
+  {"t": "Time-series forecasting", "d": "Trend, seasonality and event effects modelled for planning and replenishment."},
+  {"t": "Supervised learning", "d": "Gradient boosting, random forests and neural networks for classification and regression."},
+  {"t": "Unsupervised discovery", "d": "Clustering and segmentation that reveal customer groups and behaviour patterns."},
+  {"t": "Explainability", "d": "Feature importance and plain-language reasons so stakeholders can trust predictions."},
+  {"t": "Rigorous validation", "d": "Cross-validation, back-testing and business-metric evaluation before release."},
+  {"t": "MLOps", "d": "Versioned data and models, reproducible training and automated deployment."}
+ ],
+ "stack": [
+  {"g": "Languages and libraries", "items": ["Python", "pandas", "scikit-learn", "XGBoost", "Prophet"]},
+  {"g": "Deep learning", "items": ["PyTorch", "TensorFlow", "Hugging Face", "OpenCV"]},
+  {"g": "Data platforms", "items": ["PostgreSQL", "BigQuery", "Spark", "Airflow"]},
+  {"g": "Deployment", "items": ["FastAPI", "Docker", "MLflow", "AWS SageMaker"]}
+ ],
+ "process": [
+  {"t": "Define the question", "d": "We translate a business goal into a measurable prediction task and success metric."},
+  {"t": "Data assessment", "d": "Sources, quality, volume and gaps are reviewed, with a realistic view of what is achievable."},
+  {"t": "Baseline and experiments", "d": "A simple benchmark is set, then richer features and models are tested against it."},
+  {"t": "Validate", "d": "Results are checked on unseen data and reviewed with domain experts."},
+  {"t": "Deploy", "d": "The model is delivered as an API, dashboard feed or scheduled job in your environment."},
+  {"t": "Monitor and retrain", "d": "Drift and accuracy are tracked, and models are refreshed as data changes."}
+ ],
+ "benefits": [
+  {"t": "Better planning", "d": "Forecasts reduce overstocking, shortages and idle capacity."},
+  {"t": "Early warnings", "d": "Risk and anomaly detection surface issues while they can still be fixed."},
+  {"t": "Consistent decisions", "d": "Model-supported decisions are repeatable and measurable."},
+  {"t": "Personalisation at scale", "d": "Relevant recommendations for every customer without manual effort."},
+  {"t": "Competitive edge", "d": "Your data becomes a durable asset instead of an archive."}
+ ],
+ "usecases": [
+  {"t": "Retail demand forecasting", "d": "Store and SKU-level predictions guide purchasing and stock levels."},
+  {"t": "Customer churn prediction", "d": "Subscribers at risk are identified early so retention teams can act."},
+  {"t": "Quality inspection", "d": "Vision models detect defects on a production line."},
+  {"t": "Fraud and risk scoring", "d": "Transactions and applications are scored and routed for review."}
+ ],
+ "cta": {"h": "Find out what your data can already tell you.", "p": "Share the decision you want to improve and the data you hold. We will assess feasibility and propose a focused first model."}
+}

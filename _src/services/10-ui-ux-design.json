@@ -1,0 +1,62 @@
+{
+ "slug": "ui-ux-design",
+ "name": "UI/UX Design",
+ "visual": "uiux",
+ "headline": "Interfaces people understand at a glance.",
+ "intro": "Research-led interface design that makes complex products feel simple, consistent and pleasant, from first sketch to a design system your developers can build from.",
+ "overview": {
+  "what": "UI/UX design shapes how a product works and how it looks: user research, information architecture, wireframes, interaction design, visual design, prototyping, usability testing and design systems.",
+  "why": "People abandon products they cannot figure out. Clear structure, readable layouts and consistent behaviour reduce support requests, increase completion of key tasks and make a brand feel trustworthy.",
+  "problems": [
+   "Screens that grew feature by feature and now confuse new users",
+   "High drop-off at sign-up, checkout or onboarding",
+   "Inconsistent buttons, spacing and wording across the product",
+   "Designs that are hard for developers to translate accurately"
+  ],
+  "approach": "We learn how real users think, test structure early with low-cost wireframes, refine the visual layer once the flow works, and document components so design and code stay aligned."
+ },
+ "deliver": [
+  {"t": "User research and journeys", "d": "Interviews, competitor review and journey maps that define who the product serves and where it fails them."},
+  {"t": "Information architecture and wireframes", "d": "Navigation, structure and low-fidelity layouts that settle the flow before visual polish."},
+  {"t": "High-fidelity interface design", "d": "Polished screens for web and mobile, in light and dark modes where required."},
+  {"t": "Interactive prototypes", "d": "Clickable prototypes for stakeholder review and user testing."},
+  {"t": "Design system", "d": "Colour, typography, spacing and component libraries with usage guidance."},
+  {"t": "Developer handoff", "d": "Annotated specs, assets and tokens, with design review during implementation."}
+ ],
+ "capabilities": [
+  {"t": "Usability testing", "d": "Task-based sessions that reveal hesitation and error points before development."},
+  {"t": "Responsive and adaptive layouts", "d": "Designs planned for desktop, tablet and phone from the start."},
+  {"t": "Accessibility", "d": "Contrast, focus states, text sizing and structure aligned with WCAG practices."},
+  {"t": "Microinteraction and motion", "d": "Purposeful transitions and feedback that clarify what changed."},
+  {"t": "Data-heavy interface design", "d": "Clear tables, filters and dashboards for complex enterprise workflows."},
+  {"t": "Brand-aligned visual language", "d": "Typography, colour and imagery that express your identity consistently."}
+ ],
+ "stack": [
+  {"g": "Design", "items": ["Figma", "FigJam", "Adobe Illustrator", "Adobe Photoshop"]},
+  {"g": "Prototyping and testing", "items": ["Figma prototyping", "Maze", "Lottie", "Hotjar"]},
+  {"g": "Handoff", "items": ["Design tokens", "Storybook", "Zeplin"]},
+  {"g": "Front-end alignment", "items": ["HTML and CSS", "React", "Tailwind CSS"]}
+ ],
+ "process": [
+  {"t": "Discover", "d": "Stakeholder interviews, user research and a review of the current experience."},
+  {"t": "Define", "d": "Goals, personas, key journeys and a prioritised list of what to design."},
+  {"t": "Structure", "d": "Sitemaps and wireframes are tested with users to confirm the flow."},
+  {"t": "Design", "d": "Visual direction, high-fidelity screens and a component library are developed."},
+  {"t": "Prototype and test", "d": "Interactive prototypes are validated and refined through feedback."},
+  {"t": "Hand off and support", "d": "Specs are delivered and designers review the build until it matches."}
+ ],
+ "benefits": [
+  {"t": "Higher task completion", "d": "Clear flows help users finish what they came to do."},
+  {"t": "Fewer support requests", "d": "Understandable interfaces reduce confusion and queries."},
+  {"t": "Faster development", "d": "A clear system reduces rework and design questions during the build."},
+  {"t": "Consistent brand experience", "d": "A shared visual language builds familiarity and trust."},
+  {"t": "Inclusive reach", "d": "Accessible design serves more people on more devices."}
+ ],
+ "usecases": [
+  {"t": "Onboarding redesign", "d": "Simpler sign-up and first-use flows to reduce early drop-off."},
+  {"t": "Enterprise dashboard", "d": "Complex data and actions organised into a clear, learnable interface."},
+  {"t": "E-commerce checkout", "d": "Fewer steps and clearer feedback to recover abandoned purchases."},
+  {"t": "Design system creation", "d": "A shared library unifies several products built by different teams."}
+ ],
+ "cta": {"h": "Make your product easier to use and harder to forget.", "p": "Share a screen, a flow or an idea. We will tell you what we would improve and how we would test it."}
+}

@@ -1,0 +1,389 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Gentrobyte AI Labs</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Gentrobyte AI Labs builds AI software, mobile and web apps, automation, CRM, LMS, DevOps and SAP ERP, and runs digital marketing. Describe what you need and get a blueprint.">
+<meta name="theme-color" content="#060A1C">
+<meta property="og:title" content="Gentrobyte AI Labs">
+<meta property="og:description" content="Next-generation AI innovation company delivering intelligent software solutions for automation, digital transformation, and data-driven products.">
+<link rel="preload" href="assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add("js","loading")</script>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="app.js" defer></script>
+<!--/HEAD-->
+
+<div class="loader" id="loader" role="status" aria-live="polite">
+  <img class="ld-logo" src="assets/logo.webp" alt="Gentrobyte AI Labs" width="640" height="617" decoding="async">
+  <span class="sr">Loading</span>
+</div>
+<div class="cursor" id="cursor" aria-hidden="true"><i></i></div>
+<div class="curtain" id="curtain" aria-hidden="true"><i class="cv a"></i><i class="cv b"></i><span class="cv-label" id="cvLabel"></span></div>
+
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="world" aria-hidden="true"></canvas>
+
+<header class="nav glass" id="top">
+  <a class="brand" href="#top" aria-label="Gentrobyte AI Labs, back to top"><img src="assets/logo.webp" alt="" width="36" height="35"><span>Gentrobyte AI Labs</span></a>
+  <nav class="nav-links" aria-label="Primary">
+    <ul id="navList">
+      <li><a href="#about">About</a></li>
+      <li><a href="#capabilities">Capabilities</a></li>
+      <li><a href="#products">Solutions</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#architect">Architect</a></li>
+      <li><a href="#process">Process</a></li>
+    </ul>
+    <i class="nav-ind" id="navInd" aria-hidden="true"></i>
+  </nav>
+  <a class="btn btn-crimson nav-cta" href="#contact">Start a brief</a>
+  <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mnav"><span>Menu</span></button>
+</header>
+<nav class="mnav" id="mnav" aria-label="Primary" hidden>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#capabilities">Capabilities</a></li>
+    <li><a href="#products">Solutions</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#architect">Architect</a></li>
+    <li><a href="#ecosystem">Ecosystem</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main id="main">
+
+  <!-- 1. HERO -->
+  <section class="hero" id="hero" aria-labelledby="h1">
+    <div class="wrap hero-in">
+      <h1 id="h1"><span class="ln"><span>Intelligent software,</span></span><span class="ln"><span class="it">built around you.</span></span></h1>
+      <p class="lede">Tell us what you need, in your own words. We pick out the services that fit and send your brief to the Gentrobyte team.</p>
+
+      <form class="prompt glass" id="prompt" autocomplete="off">
+        <button type="button" class="clip" id="clipBtn" aria-label="Attach files in the contact form">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 11.5l-7.6 7.6a4.5 4.5 0 0 1-6.4-6.4l8-8a3 3 0 0 1 4.3 4.2l-8 8a1.5 1.5 0 0 1-2.1-2.2l7.2-7.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <label class="sr" for="req">Your requirement</label>
+        <textarea id="req" rows="2" maxlength="600" placeholder="Give your requirement..."></textarea>
+        <button type="submit" class="send" id="heroSend" aria-label="Review and send your requirement">
+          <i class="send-ring" aria-hidden="true"></i>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </form>
+
+      <div class="picks" aria-live="polite">
+        <ul id="notes"></ul>
+        <p class="picks-empty" id="notesEmpty">Services that fit appear here as you write.</p>
+      </div>
+      <div class="ex" role="group" aria-label="Try an example">
+        <button type="button" data-ex="I run a clinic and need a booking app for patients, with reminders and a dashboard for the front desk.">Clinic booking app</button>
+        <button type="button" data-ex="We make auto parts and need an ERP for inventory, production and quality checks across two factories.">Factory ERP</button>
+        <button type="button" data-ex="Our support team answers the same questions all day. We want a chatbot on WhatsApp and our website.">Support chatbot</button>
+        <button type="button" data-ex="We want more followers on Instagram and more enquiries from Google ads for our new store.">Grow online</button>
+      </div>
+      <p class="count mono" id="count">No services in your brief yet</p>
+
+      <dl class="hero-stats">
+        <div><dt>countries</dt><dd>35+</dd></div>
+        <div><dt>partners</dt><dd>150+</dd></div>
+        <div><dt>projects</dt><dd>500+</dd></div>
+      </dl>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About"><i></i><span class="mono">scroll</span></a>
+    </div>
+  </section>
+
+  <!-- 2. BRAND INTRODUCTION -->
+  <section class="sec about" id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <h2 class="mono kicker" id="about-h">About Gentrobyte AI Labs</h2>
+      <p class="statement" id="statement">Gentrobyte AI Labs is a next-generation AI innovation company delivering intelligent software solutions for automation, digital transformation, and data-driven products.</p>
+    </div>
+  </section>
+
+  <!-- 3. AI CAPABILITIES -->
+  <section class="sec caps veil" id="capabilities" aria-labelledby="caps-h" style="--v:.6">
+    <div class="wrap caps-grid">
+      <div class="caps-head">
+        <h2 class="h2" id="caps-h">AI capabilities</h2>
+        <p class="sub">What we build and run. Hover or tap a capability and the network behind the page reacts.</p>
+      </div>
+      <ol class="caps-list" id="capsList">
+        <!--CAPS-->
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4. PRODUCTS AND SOLUTIONS -->
+  <section class="sec products veil" id="products" aria-labelledby="svc-h" style="--v:.88">
+    <div class="wrap">
+      <div class="sec-top">
+        <h2 class="h2" id="svc-h">Our Services</h2>
+        <p class="sub">Twelve services. Open one to see how a project flows, then add it to your brief.</p>
+      </div>
+      <p class="sit-note" id="sitNote" aria-live="polite">Pick a starting point in the Project Architect and the services that fit are marked here.</p>
+      <div class="svc-list" id="svcList">
+        <!--SVC_ROWS-->
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. INTERACTIVE PORTFOLIO -->
+  <section class="sec work veil" id="portfolio" aria-labelledby="work-h" style="--v:.82">
+    <div class="wrap">
+      <div class="sec-top">
+        <h2 class="h2" id="work-h">Responsive Design Showcase</h2>
+        <p class="sub">Concept screens that show one product adapting from desktop to phone. Move your pointer over the stage.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Showcase">
+        <button type="button" role="tab" id="tab-shop" aria-selected="true" aria-controls="p-shop">E-Commerce</button>
+        <button type="button" role="tab" id="tab-book" aria-selected="false" aria-controls="p-book" tabindex="-1">Booking App</button>
+      </div>
+
+      <div class="stage3d" id="stage3d">
+        <div class="devstage" id="p-shop" role="tabpanel" aria-labelledby="tab-shop">
+          <figure class="dev browser">
+            <div class="b-bar"><i></i><i></i><i></i><span class="url">yourstore.com</span></div>
+            <div class="b-body">
+              <div class="shop-nav"><b>Your store</b><span>Shop</span><span>New in</span><span>Sale</span><em>Cart 2</em></div>
+              <div class="banner"><div><h4>Spring edit</h4><p>Fresh colours, free delivery over $50.</p></div><button type="button" tabindex="-1">Shop now</button></div>
+              <div class="grid4">
+                <div class="prod"><i class="pi p1"></i><span>Canvas tote</span><b>$24</b></div>
+                <div class="prod"><i class="pi p2"></i><span>Ceramic mug</span><b>$18</b></div>
+                <div class="prod"><i class="pi p3"></i><span>Desk lamp</span><b>$62</b></div>
+                <div class="prod"><i class="pi p4"></i><span>Notebook set</span><b>$15</b></div>
+              </div>
+            </div>
+            <figcaption>Desktop</figcaption>
+          </figure>
+          <figure class="dev tablet">
+            <div class="b-body">
+              <div class="shop-nav"><b>Your store</b><em>Cart 2</em></div>
+              <div class="banner"><div><h4>Spring edit</h4></div><button type="button" tabindex="-1">Shop</button></div>
+              <div class="grid2">
+                <div class="prod"><i class="pi p1"></i><span>Canvas tote</span><b>$24</b></div>
+                <div class="prod"><i class="pi p2"></i><span>Ceramic mug</span><b>$18</b></div>
+                <div class="prod"><i class="pi p3"></i><span>Desk lamp</span><b>$62</b></div>
+                <div class="prod"><i class="pi p4"></i><span>Notebook set</span><b>$15</b></div>
+              </div>
+            </div>
+            <figcaption>Tablet</figcaption>
+          </figure>
+          <figure class="dev phone">
+            <div class="p-notch"></div>
+            <div class="b-body">
+              <div class="shop-nav"><b>Your store</b><em>2</em></div>
+              <div class="banner"><div><h4>Spring edit</h4></div></div>
+              <div class="grid2">
+                <div class="prod"><i class="pi p1"></i><span>Canvas tote</span><b>$24</b></div>
+                <div class="prod"><i class="pi p2"></i><span>Ceramic mug</span><b>$18</b></div>
+              </div>
+            </div>
+            <figcaption>Phone</figcaption>
+          </figure>
+        </div>
+
+        <div class="devstage" id="p-book" role="tabpanel" aria-labelledby="tab-book" hidden>
+          <figure class="dev phone ios">
+            <div class="p-notch"></div>
+            <div class="b-body book">
+              <h4>Book a slot</h4>
+              <div class="week"><span>Mon<b>12</b></span><span class="on">Tue<b>13</b></span><span>Wed<b>14</b></span><span>Thu<b>15</b></span><span>Fri<b>16</b></span></div>
+              <div class="times"><span>09:00</span><span class="on">09:30</span><span>10:00</span><span class="off">10:30</span><span>11:00</span><span>11:30</span></div>
+              <button type="button" tabindex="-1">Confirm booking</button>
+            </div>
+            <figcaption>iPhone</figcaption>
+          </figure>
+          <figure class="dev phone android">
+            <div class="p-notch"></div>
+            <div class="b-body book">
+              <h4>Book a slot</h4>
+              <div class="week"><span>Mon<b>12</b></span><span class="on">Tue<b>13</b></span><span>Wed<b>14</b></span><span>Thu<b>15</b></span><span>Fri<b>16</b></span></div>
+              <div class="times"><span>09:00</span><span class="on">09:30</span><span>10:00</span><span class="off">10:30</span><span>11:00</span><span>11:30</span></div>
+              <button type="button" tabindex="-1">Confirm booking</button>
+            </div>
+            <figcaption>Android</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="growth">
+        <section class="g-block" aria-labelledby="smh">
+          <h3 id="smh">Social Media Management</h3>
+          <ul class="accts"><!--SOCIAL--></ul>
+        </section>
+        <section class="g-block" aria-labelledby="adh">
+          <h3 id="adh">Ad Campaigns</h3>
+          <div class="charts">
+            <figure><figcaption>Reach, in millions</figcaption><ul class="hbars"><!--ADS_REACH--></ul></figure>
+            <figure><figcaption>Engagement rate</figcaption><ul class="hbars"><!--ADS_ENG--></ul></figure>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. AI PROJECT ARCHITECT -->
+  <section class="sec arch-sec" id="architect" aria-labelledby="arch-h">
+    <div class="wrap">
+      <div class="sec-top">
+        <h2 class="h2" id="arch-h">AI Project Architect</h2>
+        <p class="sub">Choose where you start, then shape the scope. The blueprint forms as you go. The Gentrobyte team reviews every blueprint before any scope or price is agreed.</p>
+      </div>
+      <div class="arch glass" id="arch">
+        <div class="arch-ctl">
+          <h3 class="a-h" id="asH">Where are you starting?</h3>
+          <div class="a-sits" role="radiogroup" aria-labelledby="asH">
+            <!--ASITS-->
+          </div>
+          <p class="a-note" id="aNote" aria-live="polite">Pick one and a starting scope is suggested. Change any module you like.</p>
+        </div>
+        <div class="arch-out">
+          <div class="bp" id="bp">
+            <div class="bp-core"><span>Your product</span></div>
+            <!--BP-->
+          </div>
+          <ol class="bp-phases" aria-label="How the work would run">
+            <li>Brief</li><li>Blueprint</li><li>Design</li><li>Build</li><li>Launch</li>
+          </ol>
+          <div class="bp-act">
+            <p class="mono" id="bpCount" aria-live="polite">No modules chosen yet</p>
+            <button type="button" class="btn btn-crimson" id="bpSend">Send this blueprint</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. TECHNOLOGY ECOSYSTEM -->
+  <section class="sec eco veil" id="ecosystem" aria-labelledby="eco-h" style="--v:.55">
+    <div class="wrap eco-grid">
+      <div class="eco-copy">
+        <h2 class="h2" id="eco-h">One connected ecosystem</h2>
+        <p class="sub">Twelve service areas work as one team. Select a node to see what it covers.</p>
+        <div class="eco-detail glass" id="ecoDetail" aria-live="polite">
+          <p class="eco-t" id="ecoT">Select a node</p>
+          <p class="eco-d" id="ecoD">Each ring groups services that depend on each other: intelligence at the core, products around it, platforms and growth on the outside.</p>
+          <ul class="eco-inc" id="ecoInc"></ul>
+          <button type="button" class="add" id="ecoAdd" hidden aria-pressed="false"><span class="add-l">Add to brief</span></button>
+        </div>
+      </div>
+      <div class="orbit" id="orbit" role="group" aria-label="Service areas arranged on three rings">
+        <div class="orbit-core"><span>Gentrobyte</span></div>
+        <!--ORBIT-->
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. DEVELOPMENT PROCESS -->
+  <section class="sec process veil" id="process" aria-labelledby="method-h" style="--v:.86">
+    <div class="wrap">
+      <div class="sec-top">
+        <h2 class="h2" id="method-h">How we work</h2>
+        <p class="sub">Five stages. You see something real at each one before the next begins.</p>
+      </div>
+      <ol class="stages" id="stages">
+        <!--METHOD-->
+      </ol>
+    </div>
+  </section>
+
+  <!-- REACH -->
+  <section class="sec reach veil" id="reach" aria-labelledby="reach-h" style="--v:.78">
+    <div class="wrap">
+      <div class="reach-top">
+        <h2 class="h2" id="reach-h">Connected across 35+ Countries</h2>
+        <dl class="stats">
+          <div><dt>Countries</dt><dd><span data-count="35">35</span>+</dd></div>
+          <div><dt>Partners</dt><dd><span data-count="150">150</span>+</dd></div>
+          <div><dt>Projects</dt><dd><span data-count="500">500</span>+</dd></div>
+        </dl>
+      </div>
+      <!--MAP-->
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section class="sec founder veil" id="founder" aria-labelledby="founder-h" style="--v:.86">
+    <div class="wrap f-grid">
+      <!--FOUNDER-->
+    </div>
+  </section>
+
+  <!-- 9. CONTACT -->
+  <section class="sec contact veil" id="contact" aria-labelledby="contact-h" style="--v:.9">
+    <div class="wrap contact-grid">
+      <div class="c-head">
+        <h2 class="h2" id="contact-h">Contact Us</h2>
+        <p class="sub">Tell us about your project or requirements. A short note is enough to start.</p>
+        <h3 class="c-sub">Connect With Us</h3>
+        <ul class="links"><!--LINKS--></ul>
+        <p class="wa-num">WhatsApp <span class="sel" id="waNum">+91 91592 47730</span></p>
+      </div>
+
+      <form class="form glass" id="form" novalidate>
+        <div class="f-row">
+          <div class="f"><label for="fName">Name <i>*</i></label><input id="fName" name="name" autocomplete="name" placeholder="Enter your full name" required></div>
+          <div class="f"><label for="fEmail">Email <i>*</i></label><input id="fEmail" name="email" type="email" autocomplete="email" placeholder="Enter your email address" required></div>
+        </div>
+        <div class="f"><label for="fMobile">Mobile number <i>*</i></label><input id="fMobile" name="mobile" type="tel" autocomplete="tel" inputmode="tel" placeholder="Enter your mobile number" required></div>
+        <div class="f">
+          <label for="fMsg">Message <i>*</i></label>
+          <textarea id="fMsg" name="message" rows="5" placeholder="Tell us about your project or requirements..." required></textarea>
+        </div>
+        <div class="f">
+          <span class="lbl" id="fScopeL">Services in your brief</span>
+          <ul class="scope-chips" id="scopeChips" aria-labelledby="fScopeL"></ul>
+          <p class="hint" id="scopeHint">None added yet. Add services from the list, or build a blueprint in the Project Architect.</p>
+        </div>
+        <div class="f f-file">
+          <label class="file-btn" for="fFiles">Attach files</label>
+          <input id="fFiles" type="file" multiple>
+          <span class="hint" id="fileList">No files chosen</span>
+        </div>
+        <p class="err" id="formErr" role="alert" hidden></p>
+        <button class="btn btn-crimson btn-lg" type="submit">Send message</button>
+        <div class="sent" id="sent" role="status" hidden>
+          <h3 id="sentH">Your message is ready</h3>
+          <p id="sentP"></p>
+          <div class="sent-act">
+            <a class="btn btn-crimson" id="waLink" href="https://wa.me/919159247730" target="_blank" rel="noopener">Send on WhatsApp</a>
+            <button type="button" class="btn btn-ghost" id="copyBtn">Copy message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- 10. FOOTER -->
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot-big" aria-hidden="true">Build what&rsquo;s next.</p>
+    <div class="foot-in">
+      <a class="brand" href="#top" aria-label="Gentrobyte AI Labs, back to top"><img src="assets/logo.webp" alt="" width="44" height="42"><span>Gentrobyte AI Labs</span></a>
+      <ul class="foot-links">
+        <li><a href="#capabilities">Capabilities</a></li>
+        <li><a href="#products">Solutions</a></li>
+        <li><a href="#architect">Architect</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="copy">&copy; 2026 Gentrobyte. Powered by Gentrobyte AI Labs.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="dock" id="dock" aria-hidden="true">
+  <form class="dock-in glass" id="dockForm" autocomplete="off">
+    <label class="sr" for="dockReq">Give your requirement</label>
+    <input id="dockReq" type="text" placeholder="Give your requirement..." maxlength="600" tabindex="-1">
+    <span class="dock-count" id="dockCount" hidden></span>
+    <button type="submit" class="send" aria-label="Review and send your requirement" tabindex="-1">
+      <i class="send-ring" aria-hidden="true"></i>
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </form>
+</div>
+
+<script type="application/json" id="data">/*DATA*/</script>

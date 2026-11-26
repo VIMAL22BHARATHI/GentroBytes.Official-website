@@ -1,0 +1,62 @@
+{
+ "slug": "sap-erp-gts-s4hana",
+ "name": "SAP ERP / GTS / S4HANA",
+ "visual": "sap",
+ "headline": "One connected backbone for finance, supply chain and trade.",
+ "intro": "SAP consulting, implementation and support, from ERP rollouts and S/4HANA migration to Global Trade Services, configured around how your business really operates.",
+ "overview": {
+  "what": "Our SAP practice covers ERP implementation, S/4HANA migration, Global Trade Services (GTS) for customs and trade compliance, functional configuration, custom development, integrations and ongoing application support.",
+  "why": "As companies grow, finance, procurement, production, inventory, sales and compliance spread across disconnected tools. A single ERP gives one version of the truth, tighter controls and the reporting needed to run the business with confidence.",
+  "problems": [
+   "Separate systems for finance, stock and sales that never quite reconcile",
+   "Month-end closing that depends on manual spreadsheets",
+   "Customs, export and licence checks handled manually, with compliance risk",
+   "Ageing SAP ECC systems approaching the end of mainstream maintenance"
+  ],
+  "approach": "We follow the standard wherever it fits, extend only where the business case is clear, and run implementations as a joint effort with your process owners, with disciplined testing, data migration and user training."
+ },
+ "deliver": [
+  {"t": "ERP implementation", "d": "End-to-end rollout of SAP modules with business-blueprint, configuration and go-live support."},
+  {"t": "S/4HANA migration", "d": "Assessment, roadmap and conversion or greenfield implementation from legacy SAP landscapes."},
+  {"t": "Global Trade Services", "d": "Customs management, sanctioned-party screening, preference handling and trade compliance."},
+  {"t": "Functional consulting", "d": "Finance, procurement, sales, inventory and production processes configured to your needs."},
+  {"t": "Custom development and integration", "d": "ABAP extensions, Fiori apps and interfaces to third-party and legacy systems."},
+  {"t": "Application support", "d": "Incident handling, enhancements, patching and user assistance after go-live."}
+ ],
+ "capabilities": [
+  {"t": "Finance and controlling", "d": "General ledger, accounts payable and receivable, asset accounting, cost centres and statutory reporting."},
+  {"t": "Procurement and inventory", "d": "Purchase requisitions through goods receipt, invoice verification and stock management."},
+  {"t": "Sales and distribution", "d": "Quotation to cash, pricing, delivery, billing and credit management."},
+  {"t": "Manufacturing and planning", "d": "Production orders, bills of materials, material requirements planning and shop-floor confirmation."},
+  {"t": "Trade compliance", "d": "Export and import documentation, restricted-party checks and licence determination through GTS."},
+  {"t": "Reporting and analytics", "d": "Embedded analytics, Fiori dashboards and data extraction for wider business intelligence."}
+ ],
+ "stack": [
+  {"g": "SAP core", "items": ["SAP S/4HANA", "SAP ECC", "SAP GTS", "SAP Fiori"]},
+  {"g": "Development", "items": ["ABAP", "CDS views", "OData services", "SAP BTP"]},
+  {"g": "Integration", "items": ["SAP Integration Suite", "IDocs and BAPIs", "REST and SOAP APIs"]},
+  {"g": "Data and tools", "items": ["SAP Migration Cockpit", "SAP Solution Manager", "SAP Analytics Cloud"]}
+ ],
+ "process": [
+  {"t": "Business assessment", "d": "We understand your processes, entities, volumes and pain points, and define scope."},
+  {"t": "Blueprint and fit-gap", "d": "Requirements are mapped to SAP standard, with gaps and extensions justified."},
+  {"t": "Configure and build", "d": "Modules, interfaces and reports are configured and developed in agreed phases."},
+  {"t": "Data migration and testing", "d": "Master and transactional data is cleansed, loaded and reconciled alongside integration and user testing."},
+  {"t": "Training and go-live", "d": "Key users are trained, cutover is rehearsed and the system goes live with hypercare."},
+  {"t": "Support and optimise", "d": "Ongoing support, enhancements and periodic process reviews."}
+ ],
+ "benefits": [
+  {"t": "A single source of truth", "d": "Finance, operations and compliance work from the same real-time data."},
+  {"t": "Faster, cleaner closing", "d": "Automated postings and reconciliations shorten reporting cycles."},
+  {"t": "Lower compliance risk", "d": "Automated screening and documentation reduce trade and audit exposure."},
+  {"t": "Better inventory and cash control", "d": "Visibility across procurement, stock and billing supports tighter working capital."},
+  {"t": "A future-ready platform", "d": "S/4HANA positions the business for modern analytics and automation."}
+ ],
+ "usecases": [
+  {"t": "Manufacturer on legacy ECC", "d": "Migration to S/4HANA with simplified processes and Fiori user experience."},
+  {"t": "Exporter and importer", "d": "GTS automates customs documents and screens trading partners."},
+  {"t": "Growing distributor", "d": "Unified procurement, inventory and billing replace disconnected tools."},
+  {"t": "Multi-entity group", "d": "Consolidated finance and intercompany processes across legal entities."}
+ ],
+ "cta": {"h": "Plan your SAP journey with a team that has done it before.", "p": "Whether it is a new implementation, an S/4HANA move or a trade compliance need, start with a conversation about where you are today."}
+}

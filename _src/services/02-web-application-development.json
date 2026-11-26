@@ -1,0 +1,62 @@
+{
+ "slug": "web-application-development",
+ "name": "Web Application Development",
+ "visual": "web",
+ "headline": "Web applications that carry real business load.",
+ "intro": "Fast, responsive and secure web platforms, from customer portals and dashboards to commerce and booking systems, engineered to scale with your business.",
+ "overview": {
+  "what": "Web application development is the design and engineering of browser-based software: portals, dashboards, marketplaces, e-commerce stores and internal tools that run on any device without installation.",
+  "why": "A web application is the quickest way to put a product in front of every user on any device. It is easy to update, simple to integrate with your other systems, and can grow from a first release into a full platform.",
+  "problems": [
+   "Slow pages and poor mobile layouts that lose visitors before they convert",
+   "Manual spreadsheets and email chains that a portal could replace",
+   "Systems that do not talk to each other, forcing double data entry",
+   "Security gaps in login, payments and personal data handling"
+  ],
+  "approach": "We design the data model and user flows first, build a performant front end on a clean API, and treat accessibility, search visibility and security as part of the definition of done."
+ },
+ "deliver": [
+  {"t": "Customer and partner portals", "d": "Secure self-service areas for orders, documents, tickets and account management."},
+  {"t": "E-commerce and booking platforms", "d": "Catalogues, carts, checkout, payments, inventory sync and booking engines."},
+  {"t": "Dashboards and admin panels", "d": "Role-based back offices with reports, approvals and audit trails."},
+  {"t": "Responsive front ends", "d": "Layouts that adapt cleanly from large desktop screens down to small phones."},
+  {"t": "APIs and integrations", "d": "Clean interfaces to payment gateways, CRMs, ERPs, logistics and messaging services."},
+  {"t": "Performance and SEO foundations", "d": "Fast loading, semantic markup and metadata so public pages are discoverable."}
+ ],
+ "capabilities": [
+  {"t": "Component-driven front ends", "d": "Reusable interface components keep the product consistent and make future changes quicker."},
+  {"t": "Authentication and access control", "d": "Single sign-on, multi-factor options and fine-grained roles and permissions."},
+  {"t": "Real-time features", "d": "Live notifications, order status, chat and collaborative views over WebSockets."},
+  {"t": "Payments and checkout", "d": "Razorpay, Stripe and other gateways, with refunds, invoices and reconciliation hooks."},
+  {"t": "Search and filtering", "d": "Fast, relevant search across large catalogues and records."},
+  {"t": "Progressive web app support", "d": "Installable, offline-tolerant experiences where the use case benefits from them."}
+ ],
+ "stack": [
+  {"g": "Front end", "items": ["React", "Next.js", "TypeScript", "Vue", "Tailwind CSS"]},
+  {"g": "Back end", "items": ["Node.js", "Python Django and FastAPI", "Laravel", "REST and GraphQL"]},
+  {"g": "Data", "items": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch"]},
+  {"g": "Delivery", "items": ["Docker", "GitHub Actions", "AWS", "Nginx", "Lighthouse audits"]}
+ ],
+ "process": [
+  {"t": "Discovery and scope", "d": "Users, journeys, integrations and success measures are mapped, and the first release is defined."},
+  {"t": "Architecture and design", "d": "Data model, API contracts and interface designs are agreed before major build effort."},
+  {"t": "Iterative development", "d": "Front end and back end are built in parallel with a reviewable staging site throughout."},
+  {"t": "Testing and hardening", "d": "Automated tests, load checks, accessibility review and security testing."},
+  {"t": "Deployment", "d": "Automated pipelines release to production with monitoring and a rollback plan."},
+  {"t": "Support and evolution", "d": "Uptime monitoring, patching and a backlog of improvements informed by analytics."}
+ ],
+ "benefits": [
+  {"t": "Reach every device", "d": "One responsive product serves desktop, tablet and phone users alike."},
+  {"t": "Less manual work", "d": "Portals and automated workflows replace repetitive spreadsheet and email processes."},
+  {"t": "Stronger conversion", "d": "Fast pages and a clear checkout flow reduce drop-off."},
+  {"t": "Connected systems", "d": "Integrations remove double entry and give teams a single source of truth."},
+  {"t": "Easy to extend", "d": "A modular codebase lets you add features without rebuilding the foundation."}
+ ],
+ "usecases": [
+  {"t": "Online store", "d": "Catalogue, cart, payments and order tracking connected to stock and shipping."},
+  {"t": "B2B ordering portal", "d": "Dealers place repeat orders, view price lists and download invoices."},
+  {"t": "Service booking", "d": "Customers pick a slot, pay a deposit and receive confirmations automatically."},
+  {"t": "Operations dashboard", "d": "Managers monitor live activity, approvals and exceptions from one screen."}
+ ],
+ "cta": {"h": "Ready to move your process or product online?", "p": "Tell us what the application needs to do and who will use it. We will respond with a practical plan and a clear estimate."}
+}

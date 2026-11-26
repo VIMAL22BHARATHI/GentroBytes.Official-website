@@ -1,0 +1,62 @@
+{
+ "slug": "ai-data-analytics",
+ "name": "AI & Data Analytics",
+ "visual": "analytics",
+ "headline": "Turn scattered data into decisions you can see.",
+ "intro": "Unified data, clear dashboards and AI-assisted insight, so leaders see what is happening across the business and understand why.",
+ "overview": {
+  "what": "AI and data analytics brings data from your systems into one governed foundation, models it into trusted metrics, and presents it through dashboards, reports and natural-language exploration.",
+  "why": "Most organisations already hold the answers in their ERP, CRM, finance and marketing tools. The problem is that the data sits in silos, reports take days to prepare and every team measures things differently.",
+  "problems": [
+   "Weekly reports assembled manually from several exports",
+   "Different teams quoting different numbers for the same metric",
+   "Dashboards that look good but are slow, outdated or ignored",
+   "Questions that need an analyst's time before anyone can answer them"
+  ],
+  "approach": "We agree the metrics that matter, consolidate data into a clean model, build dashboards for specific audiences and decisions, and add AI features that let people ask questions and spot changes without waiting for a report."
+ },
+ "deliver": [
+  {"t": "Data integration and warehouse", "d": "Pipelines from your applications, spreadsheets and APIs into a central, well-modelled store."},
+  {"t": "Executive and operational dashboards", "d": "Interactive views for leadership, sales, finance, operations and marketing."},
+  {"t": "KPI framework", "d": "Agreed definitions and calculations so everyone reads the same numbers."},
+  {"t": "Automated reporting", "d": "Scheduled reports delivered to email or chat, replacing manual preparation."},
+  {"t": "AI-assisted insights", "d": "Natural-language questions, automatic summaries and alerts for unusual changes."},
+  {"t": "Data governance", "d": "Access control, lineage and quality checks that keep the numbers trustworthy."}
+ ],
+ "capabilities": [
+  {"t": "ETL and ELT pipelines", "d": "Scheduled extraction, cleaning and transformation with monitoring and retry logic."},
+  {"t": "Dimensional modelling", "d": "Structures designed for fast, consistent analysis across business domains."},
+  {"t": "Self-service exploration", "d": "Filters, drill-downs and ad-hoc analysis for non-technical users."},
+  {"t": "Natural-language queries", "d": "Ask a question in plain English and get a chart or table backed by governed data."},
+  {"t": "Anomaly and trend alerts", "d": "Automatic notification when a metric moves outside its expected range."},
+  {"t": "Embedded analytics", "d": "Dashboards embedded inside your own application or customer portal."}
+ ],
+ "stack": [
+  {"g": "Visualisation", "items": ["Power BI", "Tableau", "Metabase", "Looker Studio", "Apache Superset"]},
+  {"g": "Warehouse", "items": ["PostgreSQL", "BigQuery", "Snowflake", "Amazon Redshift"]},
+  {"g": "Pipelines", "items": ["Python", "dbt", "Airflow", "Airbyte"]},
+  {"g": "AI layer", "items": ["Large language models", "Semantic layer", "Vector search"]}
+ ],
+ "process": [
+  {"t": "Question and KPI workshop", "d": "We identify the decisions you need to make and the metrics that inform them."},
+  {"t": "Source audit", "d": "Systems, tables and spreadsheets are catalogued, and data quality issues are noted."},
+  {"t": "Build the data foundation", "d": "Pipelines and models are created, tested and reconciled with your known numbers."},
+  {"t": "Design dashboards", "d": "Interfaces are designed with users, starting from the questions they ask most."},
+  {"t": "Roll out and train", "d": "Teams are onboarded, permissions are set and adoption is tracked."},
+  {"t": "Evolve", "d": "New sources, metrics and AI features are added as needs develop."}
+ ],
+ "benefits": [
+  {"t": "One version of the truth", "d": "Shared definitions end disagreements over whose number is right."},
+  {"t": "Hours saved every week", "d": "Automated reporting replaces manual compilation."},
+  {"t": "Faster decisions", "d": "Leaders see current performance and can act without waiting for a report."},
+  {"t": "Problems seen sooner", "d": "Alerts highlight issues while there is still time to respond."},
+  {"t": "Wider data access", "d": "Natural-language exploration lets more people use data confidently."}
+ ],
+ "usecases": [
+  {"t": "Sales performance", "d": "Pipeline, win rate and regional performance in a single live dashboard."},
+  {"t": "Finance and cash flow", "d": "Receivables, payables and margin trends consolidated from several systems."},
+  {"t": "Operations monitoring", "d": "Throughput, delays and stock levels tracked against targets."},
+  {"t": "Marketing attribution", "d": "Spend and conversions from all channels compared in one place."}
+ ],
+ "cta": {"h": "See your business clearly, in one place.", "p": "Tell us which numbers you struggle to trust or find. We will propose a practical route to dashboards your team will use."}
+}

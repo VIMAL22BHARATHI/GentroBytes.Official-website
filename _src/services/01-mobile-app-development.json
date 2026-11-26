@@ -1,0 +1,62 @@
+{
+ "slug": "mobile-app-development",
+ "name": "Mobile App Development",
+ "visual": "mobile",
+ "headline": "Apps people keep on their home screen.",
+ "intro": "Native-quality Android and iOS apps, designed around how your customers actually use their phones and engineered to stay fast, secure and easy to maintain.",
+ "overview": {
+  "what": "Mobile app development covers the full journey of an app: product thinking, interface design, engineering for Android and iOS, backend and API integration, store release and long-term support.",
+  "why": "For most customers the phone is the first and often only screen they use. A well-built app puts your service one tap away, enables push notifications, offline use, camera, location and payments, and builds a direct relationship that a website alone cannot.",
+  "problems": [
+   "Apps that look fine in a demo but lag, crash or drain battery on real devices",
+   "Separate Android and iOS builds that drift apart and double the maintenance cost",
+   "Launches that stall in store review because of policy, privacy or permission mistakes",
+   "Backends that cannot cope once real users and real data arrive"
+  ],
+  "approach": "We start with the one job the app must do well, prototype it on real devices early, and build the app and its backend together so performance, security and release readiness are designed in rather than patched on."
+ },
+ "deliver": [
+  {"t": "Android and iOS apps", "d": "Production apps for both platforms, built with native or cross-platform tooling depending on what your product needs."},
+  {"t": "Interface and interaction design", "d": "Screens, navigation and micro-interactions that follow each platform's conventions and feel natural in one hand."},
+  {"t": "Backend and API layer", "d": "Secure REST or GraphQL services, authentication, data storage and admin tools that power the app."},
+  {"t": "Store submission", "d": "Listing assets, privacy declarations, signing and review handling for Google Play and the App Store."},
+  {"t": "Quality assurance", "d": "Device-matrix testing, automated checks and performance profiling before every release."},
+  {"t": "Maintenance and updates", "d": "OS-version support, crash monitoring, security patches and feature releases after launch."}
+ ],
+ "capabilities": [
+  {"t": "Cross-platform and native engineering", "d": "Flutter and React Native for shared code and faster delivery, Kotlin and Swift where deep platform features matter."},
+  {"t": "Offline-first and sync", "d": "Local storage with background synchronisation so the app stays useful on poor or intermittent networks."},
+  {"t": "Push notifications and engagement", "d": "Targeted, permission-aware messaging, in-app prompts and deep links that bring users back to the right screen."},
+  {"t": "Payments and subscriptions", "d": "In-app purchases, UPI and card checkout, wallets and recurring billing integrated with your finance flow."},
+  {"t": "Device features", "d": "Camera and document capture, geolocation, maps, biometrics, Bluetooth and file handling."},
+  {"t": "Security and privacy", "d": "Encrypted storage, certificate pinning, secure token handling and data-protection practices aligned with store policies."}
+ ],
+ "stack": [
+  {"g": "Mobile", "items": ["Flutter", "React Native", "Kotlin", "Swift", "Jetpack Compose", "SwiftUI"]},
+  {"g": "Backend", "items": ["Node.js", "Python", "REST and GraphQL", "Firebase", "WebSockets"]},
+  {"g": "Data", "items": ["PostgreSQL", "MongoDB", "SQLite", "Redis"]},
+  {"g": "Release and quality", "items": ["Fastlane", "GitHub Actions", "Firebase Crashlytics", "TestFlight", "Play Console"]}
+ ],
+ "process": [
+  {"t": "Discovery", "d": "We define users, the core journey and success measures, and agree what the first release includes."},
+  {"t": "Design and prototype", "d": "Clickable prototypes are tested on real phones before engineering starts."},
+  {"t": "Build in sprints", "d": "App and backend are developed in short cycles with a working build you can install every sprint."},
+  {"t": "Test on real devices", "d": "Functional, performance and security testing across the Android and iOS versions your users run."},
+  {"t": "Launch", "d": "Store listings, staged rollout and monitoring so the release is observed from the first install."},
+  {"t": "Support and grow", "d": "Crash tracking, OS updates and a prioritised roadmap driven by usage data."}
+ ],
+ "benefits": [
+  {"t": "A direct channel to customers", "d": "Notifications, saved preferences and one-tap actions raise repeat use compared with a mobile website."},
+  {"t": "One codebase where it makes sense", "d": "Cross-platform delivery lowers build and upkeep cost without giving up quality."},
+  {"t": "Reliable under real conditions", "d": "Offline handling and device testing keep the app usable on average phones and average networks."},
+  {"t": "Faster path to the stores", "d": "Release hygiene and policy checks reduce rejections and rework."},
+  {"t": "Room to scale", "d": "A backend built for growth means new features and more users do not force a rewrite."}
+ ],
+ "usecases": [
+  {"t": "Booking and appointments", "d": "Customers browse availability, book, pay and receive reminders from a single app."},
+  {"t": "Field and delivery teams", "d": "Staff capture photos, signatures and locations offline and sync when they reconnect."},
+  {"t": "Retail and loyalty", "d": "Catalogues, wallets, offers and order tracking tied to your existing store systems."},
+  {"t": "Learning and membership", "d": "Content, progress tracking and subscriptions delivered on any device."}
+ ],
+ "cta": {"h": "Have an app in mind? Let us shape it with you.", "p": "Share the idea, the users and the timeline. We will come back with a clear scope, a recommended approach and a realistic plan."}
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "crm-lms-hrms-billing",
+ "name": "CRM, LMS, HRMS & Billing",
+ "visual": "business",
+ "headline": "Run customers, people, learning and money from one system.",
+ "intro": "Business management platforms for customer relationships, training, HR operations and invoicing, built to fit your workflow instead of forcing you into someone else's.",
+ "overview": {
+  "what": "We build and implement four families of management systems: CRM for sales and customer relationships, LMS for training and courses, HRMS for employee lifecycle and payroll, and billing for invoices, subscriptions and collections.",
+  "why": "Growth multiplies the number of people, customers and transactions to track. Without a system of record, information lives in spreadsheets and inboxes, follow-ups are missed and managers lack reliable numbers.",
+  "problems": [
+   "Leads and customer history scattered across chats, sheets and personal notes",
+   "Training that is hard to schedule, track or prove for compliance",
+   "Attendance, leave and payroll prepared by hand every month",
+   "Invoices created late, payments chased manually and revenue hard to forecast"
+  ],
+  "approach": "We model your actual workflows and approval chains, configure or build the right modules, migrate your existing data and integrate the systems so information flows from lead to invoice to payroll."
+ },
+ "deliver": [
+  {"t": "CRM", "d": "Lead capture, pipeline stages, contacts, follow-up reminders, quotations and sales reporting."},
+  {"t": "LMS", "d": "Course authoring, enrolment, assessments, progress tracking and certificates."},
+  {"t": "HRMS", "d": "Employee records, attendance, leave, onboarding, payroll inputs and document management."},
+  {"t": "Billing and invoicing", "d": "Quotes, tax-compliant invoices, subscriptions, payment links and receivables tracking."},
+  {"t": "Role-based dashboards", "d": "Views tailored to owners, managers, staff, learners and customers."},
+  {"t": "Integration and data migration", "d": "Import from existing sheets and tools and connect to accounting, email and messaging."}
+ ],
+ "capabilities": [
+  {"t": "Sales pipeline automation", "d": "Assignment rules, reminders and stage-based tasks keep every lead moving."},
+  {"t": "Learning delivery", "d": "Video, documents and quizzes, learning paths, batches and attendance for online or classroom training."},
+  {"t": "Attendance and leave", "d": "Shifts, biometric or mobile check-in, leave policies and approval chains."},
+  {"t": "Payroll preparation", "d": "Salary structures, deductions and statutory inputs prepared and exported accurately."},
+  {"t": "GST-ready invoicing", "d": "Tax calculations, invoice numbering, credit notes and payment reconciliation."},
+  {"t": "Reports and audit trails", "d": "Operational and management reports with a record of who changed what and when."}
+ ],
+ "stack": [
+  {"g": "Application", "items": ["React", "Node.js", "Python Django", "Laravel"]},
+  {"g": "Data", "items": ["PostgreSQL", "MySQL", "Redis"]},
+  {"g": "Integrations", "items": ["WhatsApp Business API", "Razorpay and Stripe", "Email and SMS gateways", "Tally and accounting APIs"]},
+  {"g": "Platforms", "items": ["Zoho", "Odoo", "Moodle", "Custom builds"]}
+ ],
+ "process": [
+  {"t": "Workflow discovery", "d": "We document how leads, learners, staff and invoices move today and where time is lost."},
+  {"t": "Solution selection", "d": "We recommend building custom or configuring an established platform based on fit and cost."},
+  {"t": "Configuration and build", "d": "Modules, roles, forms, approvals and reports are set up around your workflow."},
+  {"t": "Data migration", "d": "Existing records are cleaned, mapped and imported with reconciliation checks."},
+  {"t": "Training and rollout", "d": "Staged adoption with role-based training and clear documentation."},
+  {"t": "Support and refinement", "d": "Help-desk support and changes as your processes mature."}
+ ],
+ "benefits": [
+  {"t": "Nothing falls through", "d": "Reminders and pipelines ensure each lead, learner and invoice is followed up."},
+  {"t": "Less administrative load", "d": "Automation reduces manual HR, training and billing paperwork."},
+  {"t": "Faster payments", "d": "Timely invoices and payment links shorten collection cycles."},
+  {"t": "Trusted numbers", "d": "Management reports come from one consistent source."},
+  {"t": "Adapts to you", "d": "Workflows are configured to your process instead of a rigid template."}
+ ],
+ "usecases": [
+  {"t": "Training institute", "d": "An LMS and billing system manage batches, fees, attendance and certificates."},
+  {"t": "Services company", "d": "CRM tracks enquiries to proposals, then converts them into recurring invoices."},
+  {"t": "Growing employer", "d": "HRMS automates onboarding, attendance and leave across locations."},
+  {"t": "Subscription business", "d": "Billing handles plans, renewals, reminders and payment reconciliation."}
+ ],
+ "cta": {"h": "Replace scattered spreadsheets with one system that fits.", "p": "Tell us which processes feel heaviest today. We will suggest the right combination of modules and a sensible rollout order."}
+}

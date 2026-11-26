@@ -1,0 +1,62 @@
+{
+ "slug": "custom-software-solutions",
+ "name": "Custom Software Solutions",
+ "visual": "custom",
+ "headline": "Software shaped around the way you work.",
+ "intro": "When off-the-shelf tools force compromises, we engineer bespoke systems that fit your processes, integrate with what you already run and grow with the business.",
+ "overview": {
+  "what": "Custom software development is the design and engineering of tailor-made applications: internal systems, workflow engines, integrations, data platforms and product backends, plus modernisation of legacy applications.",
+  "why": "Generic software suits generic needs. When your process is a source of advantage, or when no product fits, a purpose-built system removes workarounds, captures your unique rules and gives you ownership of the roadmap.",
+  "problems": [
+   "Teams bending their process to fit software that was not designed for it",
+   "Several tools stitched together with spreadsheets and manual transfers",
+   "Legacy applications that are slow, unsupported and risky to change",
+   "Licence costs and limits that grow faster than the value received"
+  ],
+  "approach": "We build in small, usable increments with a modular architecture, automated tests and clear documentation, so you see value early and keep a maintainable asset that you own."
+ },
+ "deliver": [
+  {"t": "Bespoke business applications", "d": "Purpose-built systems for operations, field work, approvals, inventory, scheduling and more."},
+  {"t": "Workflow and process automation", "d": "Rules, approvals and notifications that encode how your organisation actually works."},
+  {"t": "System integration", "d": "APIs and connectors that unite your existing tools, databases and third-party services."},
+  {"t": "Legacy modernisation", "d": "Re-platforming or incremental replacement of ageing applications with minimal disruption."},
+  {"t": "Product engineering", "d": "End-to-end engineering of software products, from architecture to scalable cloud deployment."},
+  {"t": "Documentation and knowledge transfer", "d": "Architecture notes, runbooks and training so your team can own the system."}
+ ],
+ "capabilities": [
+  {"t": "Domain modelling", "d": "Software structure that mirrors your business concepts and rules."},
+  {"t": "API-first architecture", "d": "Well-defined interfaces enabling web, mobile and partner access to the same logic."},
+  {"t": "Role-based security", "d": "Granular permissions, audit logs and data protection suited to sensitive operations."},
+  {"t": "Reporting and exports", "d": "Operational reports, scheduled exports and integrations with analytics tools."},
+  {"t": "Scalable, maintainable code", "d": "Modular design, automated testing and code review for long-term health."},
+  {"t": "Cloud-ready deployment", "d": "Containerised delivery, environment automation and monitoring from day one."}
+ ],
+ "stack": [
+  {"g": "Back end", "items": ["Python", "Node.js", "Java", ".NET", "Go"]},
+  {"g": "Front end", "items": ["React", "TypeScript", "Angular", "Vue"]},
+  {"g": "Data and messaging", "items": ["PostgreSQL", "MongoDB", "Redis", "RabbitMQ", "Kafka"]},
+  {"g": "Delivery", "items": ["Docker", "Kubernetes", "GitHub Actions", "AWS", "Azure"]}
+ ],
+ "process": [
+  {"t": "Requirement discovery", "d": "We study your processes, users, data and constraints, then define the smallest valuable first release."},
+  {"t": "Architecture and planning", "d": "Technology choices, data model, integrations and delivery plan are agreed."},
+  {"t": "Incremental build", "d": "Working software is delivered in short cycles with regular demos and feedback."},
+  {"t": "Quality assurance", "d": "Automated and manual testing, security review and performance checks."},
+  {"t": "Deployment and training", "d": "Production release, data migration if needed and user training."},
+  {"t": "Support and evolution", "d": "Monitoring, maintenance and new features as your needs change."}
+ ],
+ "benefits": [
+  {"t": "A precise fit", "d": "The software reflects your real process, with no unused features or missing ones."},
+  {"t": "Ownership and control", "d": "You decide the roadmap and avoid vendor lock-in and per-seat limits."},
+  {"t": "Efficiency gains", "d": "Eliminating manual steps and duplicate entry saves time every day."},
+  {"t": "Integrated operations", "d": "Systems share data automatically across the organisation."},
+  {"t": "Built to evolve", "d": "Modular architecture lets the system adapt as the business changes."}
+ ],
+ "usecases": [
+  {"t": "Operations management", "d": "A single system tracks jobs, resources, approvals and delivery status."},
+  {"t": "Partner and dealer platform", "d": "Secure portal and APIs that connect external partners to your data."},
+  {"t": "Legacy replacement", "d": "An ageing desktop application is rebuilt as a modern web system in phases."},
+  {"t": "Industry-specific product", "d": "A niche SaaS product is engineered for a market that standard tools overlook."}
+ ],
+ "cta": {"h": "If nothing off the shelf fits, build what does.", "p": "Describe the process, the pain and the people involved. We will recommend whether to build, buy or combine, and show you how we would start."}
+}

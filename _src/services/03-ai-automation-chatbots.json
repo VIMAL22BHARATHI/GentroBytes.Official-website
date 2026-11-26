@@ -1,0 +1,62 @@
+{
+ "slug": "ai-automation-chatbots",
+ "name": "AI Automation & Chatbots",
+ "visual": "automation",
+ "headline": "Let intelligent workflows handle the repetitive work.",
+ "intro": "Conversational assistants and automated workflows that answer customers, route requests and move data between your systems, so your team spends its time on decisions.",
+ "overview": {
+  "what": "AI automation combines language models, business rules and integrations to perform tasks end to end: answering questions, qualifying leads, processing documents and triggering actions across your software.",
+  "why": "Customers expect instant answers at any hour, and teams lose hours to copying data, chasing approvals and sorting inboxes. Automation takes over predictable work while people handle exceptions and relationships.",
+  "problems": [
+   "Support queues full of repeated questions that already have clear answers",
+   "Leads that go cold because nobody responded quickly or consistently",
+   "Documents, forms and emails keyed in by hand into several systems",
+   "Chatbots that frustrate users because they cannot take real action"
+  ],
+  "approach": "We pick processes with clear rules and high volume, ground assistants in your own approved content, connect them to the systems where work happens, and keep a human handover path for anything uncertain."
+ },
+ "deliver": [
+  {"t": "Customer-facing chatbots", "d": "Assistants for your website and WhatsApp that answer, collect details and book or escalate."},
+  {"t": "Internal knowledge assistants", "d": "Staff ask questions in plain language and get answers drawn from your policies and documents."},
+  {"t": "Workflow automation", "d": "Multi-step processes that move data, send messages and update records without manual effort."},
+  {"t": "Document intelligence", "d": "Extraction and classification of invoices, forms and contracts into structured data."},
+  {"t": "System integrations", "d": "Connections to your CRM, ERP, helpdesk, calendar and messaging tools."},
+  {"t": "Monitoring and tuning", "d": "Conversation review, accuracy tracking and continuous improvement after launch."}
+ ],
+ "capabilities": [
+  {"t": "Retrieval-grounded answers", "d": "Responses are based on your approved content, with sources, to reduce incorrect or invented replies."},
+  {"t": "Tool use and actions", "d": "Assistants can look up orders, create tickets, schedule meetings and update records through secure APIs."},
+  {"t": "Multi-channel messaging", "d": "One conversation engine across web chat, WhatsApp and other channels."},
+  {"t": "Lead qualification", "d": "Structured questions score and route enquiries to the right person with full context."},
+  {"t": "Human handover", "d": "Clear escalation rules pass the conversation, with history, to your team when needed."},
+  {"t": "Guardrails and privacy", "d": "Content filters, access controls and data-handling rules that fit your compliance needs."}
+ ],
+ "stack": [
+  {"g": "Models and AI", "items": ["Large language models (hosted and open-source)", "Embeddings", "Vector search", "OCR and document parsing"]},
+  {"g": "Orchestration", "items": ["Python", "LangChain", "n8n", "Webhooks and queues"]},
+  {"g": "Channels", "items": ["WhatsApp Business API", "Web chat widgets", "Email", "Slack and Teams"]},
+  {"g": "Data", "items": ["PostgreSQL", "pgvector", "Redis", "Cloud object storage"]}
+ ],
+ "process": [
+  {"t": "Process audit", "d": "We map candidate workflows, measure volume and effort, and rank them by value and feasibility."},
+  {"t": "Content and data preparation", "d": "Approved knowledge, example conversations and system access are gathered and cleaned."},
+  {"t": "Prototype", "d": "A working assistant or workflow is tested with real examples and your team."},
+  {"t": "Integrate and secure", "d": "Connections, permissions, guardrails and escalation paths are built and reviewed."},
+  {"t": "Pilot and launch", "d": "A controlled rollout with live monitoring before wider release."},
+  {"t": "Measure and improve", "d": "Review of conversations and outcomes guides ongoing refinement."}
+ ],
+ "benefits": [
+  {"t": "Answers at any hour", "d": "Customers get immediate responses without adding headcount."},
+  {"t": "Faster lead response", "d": "Enquiries are acknowledged, qualified and routed in moments."},
+  {"t": "Fewer errors", "d": "Automated data movement removes retyping mistakes."},
+  {"t": "Time back for your team", "d": "People focus on exceptions, relationships and decisions."},
+  {"t": "Consistent service", "d": "Every customer receives the same approved information."}
+ ],
+ "usecases": [
+  {"t": "Customer support", "d": "A bot resolves common questions and hands complex cases to an agent with context."},
+  {"t": "Sales enquiries", "d": "A WhatsApp assistant qualifies leads and books a call in your calendar."},
+  {"t": "Invoice processing", "d": "Supplier invoices are read, validated and posted to your accounting system."},
+  {"t": "HR helpdesk", "d": "Employees ask about leave, policies and payslips and receive instant answers."}
+ ],
+ "cta": {"h": "Find the work that should not need a person.", "p": "Describe a process that eats your team's time. We will assess whether automation fits and show you what it would look like."}
+}

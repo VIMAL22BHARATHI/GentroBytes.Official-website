@@ -1,0 +1,62 @@
+{
+ "slug": "devops-cloud-infrastructure",
+ "name": "DevOps & Cloud Infrastructure",
+ "visual": "devops",
+ "headline": "Ship faster on infrastructure you can trust.",
+ "intro": "Automated pipelines, resilient cloud environments and clear observability, so releases are routine, systems stay available and costs stay under control.",
+ "overview": {
+  "what": "DevOps and cloud infrastructure brings development and operations together: cloud architecture, infrastructure as code, CI/CD pipelines, containers, monitoring, security and cost management.",
+  "why": "Software only creates value once it is running reliably for users. Manual deployments, fragile servers and missing visibility slow teams down and turn every release into a risk.",
+  "problems": [
+   "Manual, error-prone deployments that happen late at night and break things",
+   "Servers configured by hand that nobody can safely reproduce",
+   "Outages discovered by customers before the team notices",
+   "Cloud bills that grow without clear ownership or limits"
+  ],
+  "approach": "We codify the environment, automate the path from commit to production, add monitoring and alerting before it is needed, and review security and spend as continuous practices rather than one-off checks."
+ },
+ "deliver": [
+  {"t": "Cloud architecture", "d": "Network, compute, storage and database design on AWS, Azure or Google Cloud matched to your workload."},
+  {"t": "CI/CD pipelines", "d": "Automated build, test and deployment flows with approvals and safe rollbacks."},
+  {"t": "Infrastructure as code", "d": "Version-controlled environments that can be recreated or scaled in minutes."},
+  {"t": "Containers and orchestration", "d": "Docker and Kubernetes setups for portable, scalable services."},
+  {"t": "Monitoring and alerting", "d": "Dashboards, logs, traces and alerts that show problems before users feel them."},
+  {"t": "Migration and cost optimisation", "d": "Planned moves to the cloud and ongoing right-sizing of resources."}
+ ],
+ "capabilities": [
+  {"t": "Zero-downtime releases", "d": "Blue-green and rolling strategies keep services available while new versions go live."},
+  {"t": "Auto-scaling and load balancing", "d": "Capacity follows demand so peaks are handled and quiet periods cost less."},
+  {"t": "Backup and disaster recovery", "d": "Tested backups, multi-zone design and recovery objectives agreed with the business."},
+  {"t": "Security and compliance", "d": "Least-privilege access, secrets management, network isolation, patching and audit logging."},
+  {"t": "Environment management", "d": "Consistent development, staging and production environments built from the same definitions."},
+  {"t": "FinOps visibility", "d": "Tagging, budgets and reports that show what each service costs."}
+ ],
+ "stack": [
+  {"g": "Cloud", "items": ["AWS", "Microsoft Azure", "Google Cloud", "Cloudflare"]},
+  {"g": "Automation", "items": ["Terraform", "Ansible", "GitHub Actions", "GitLab CI", "Jenkins"]},
+  {"g": "Containers", "items": ["Docker", "Kubernetes", "Helm", "Argo CD"]},
+  {"g": "Observability", "items": ["Prometheus", "Grafana", "ELK Stack", "OpenTelemetry"]}
+ ],
+ "process": [
+  {"t": "Assessment", "d": "We review current infrastructure, release practice, incidents, security posture and spend."},
+  {"t": "Target architecture", "d": "A cloud and delivery blueprint is agreed with clear priorities and trade-offs."},
+  {"t": "Foundation build", "d": "Accounts, networks, identity and base infrastructure are created as code."},
+  {"t": "Pipeline automation", "d": "Build, test, security scan and deploy steps are automated for each service."},
+  {"t": "Migration and cutover", "d": "Workloads move in planned stages with rehearsed rollback."},
+  {"t": "Operate and optimise", "d": "Monitoring, on-call practice, patching and regular cost and performance reviews."}
+ ],
+ "benefits": [
+  {"t": "Frequent, low-risk releases", "d": "Automation makes shipping small changes routine instead of stressful."},
+  {"t": "Higher availability", "d": "Redundancy and monitoring reduce downtime and shorten recovery."},
+  {"t": "Predictable cost", "d": "Right-sizing and budgets keep spend aligned with value."},
+  {"t": "Stronger security", "d": "Consistent controls reduce exposure and simplify audits."},
+  {"t": "Developer productivity", "d": "Reliable environments let engineers focus on product work."}
+ ],
+ "usecases": [
+  {"t": "Moving from a single server", "d": "A growing application migrates to a scalable, monitored cloud setup."},
+  {"t": "Pipeline for multiple teams", "d": "Shared CI/CD standards speed up delivery across several products."},
+  {"t": "Peak-season readiness", "d": "Retail and booking platforms scale automatically for campaigns and events."},
+  {"t": "Cloud cost clean-up", "d": "Unused and oversized resources are identified and trimmed."}
+ ],
+ "cta": {"h": "Make releases boring and uptime dependable.", "p": "Tell us how you deploy and host today. We will review it and propose the changes that matter most."}
+}
